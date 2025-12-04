@@ -1,0 +1,79 @@
+{
+  "components": {
+    "x-1851424-doli-comp": {
+      "innerComponents": [],
+      "actions": [
+        {
+          "name": "VALUE_SET",
+          "action": "SEND_COMP_DATA#VALUE_SET",
+          "label": "Send component data",
+          "payload": [
+            {
+              "name": "mode",
+              "label": "Mode",
+              "type": "string"
+            },
+            {
+              "name": "wafer",
+              "label": "Wafer",
+              "type": "string"
+            },
+            {
+              "name": "selected",
+              "label": "Selected",
+              "type": "string"
+            },
+            {
+              "name": "operation",
+              "label": "Operation",
+              "type": "string"
+            },
+            {
+              "name": "readonly",
+              "label": "Readonly",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "uiBuilder": {
+        "associatedTypes": [
+          "global.core",
+          "global.landing-page"
+        ],
+        "label": "Doli Wafer Component",
+        "tileIcon": "./tile-icon/14.svg",
+        "description": "DOLI Wafer list Component",
+        "category": "primitive"
+      },
+      "properties": [
+        {
+          "name": "mode",
+          "label": "Mode",
+          "fieldType": "string"
+        },
+        {
+          "name": "wafer",
+          "label": "Wafer",
+          "fieldType": "string"
+        },
+        {
+          "name": "selected",
+          "label": "Selected",
+          "fieldType": "string"
+        },
+        {
+          "name": "operation",
+          "label": "Operation",
+          "fieldType": "string"
+        },
+        {
+          "name": "readonly",
+          "label": "Readonly",
+          "fieldType": "string"
+        }
+      ]
+    }
+  },
+  "scopeName": "x_1851424_doli_c_0"
+}
